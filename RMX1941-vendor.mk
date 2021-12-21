@@ -83,3 +83,7 @@ PRODUCT_COPY_FILES := \
     vendor/realme/RMX1941/configs/permissions/privapp-permissions-whitelist-system_ext.xml:$(TARGET_COPY_OUT_SYSTEM)/system_ext/etc/permissions/privapp-permissions-whitelist-system_ext.xml \
     vendor/realme/RMX1941/configs/permissions/privapp-permissions-com.android.launcher3.xml:$(TARGET_COPY_OUT_SYSTEM)/system_ext/etc/permissions/privapp-permissions-com.android.launcher3.xml \
     vendor/realme/RMX1941/configs/permissions/privapp-permissions-com.mediatek.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.mediatek.ims.xml
+
+# Trustonic TEE
+PRODUCT_COPY_FILES += \
+    vendor/realme/RMX1941/configs/public.libraries-trustonic.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/public.libraries-trustonic.txt
